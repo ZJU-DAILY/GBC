@@ -1,5 +1,6 @@
 # GBC
 Source code of our paper for our paper: Accelerating Biclique Counting on GPU
+
 `BicliquesotaBatch.cu` implements GBC without HTB and work steal. 
 `BicliquesotaStealworkBatch.cu` implements GBC without HTB.
 `BiclqiueBitmap.cu` implements GBC without work steal.
