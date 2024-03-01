@@ -9,7 +9,9 @@ Source code of our paper for our paper: Accelerating Biclique Counting on GPU
 
 `BicliqueBitmapStealwork.cu` implements GBC with all techniques. 
 
-To compile these files, please run the command:
+`vertex_reorder.cpp` implements Border. 
+
+To compile these files except `vertex_reorder.cpp`, please run the command:
 `nvcc BicliquesotaBatch.cu -o bst`
 
 The bst needs four arguments:
